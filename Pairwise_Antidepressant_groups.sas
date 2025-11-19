@@ -1,7 +1,7 @@
 options validvarname=V7;
 
 /* Import data*/ 
-PROC IMPORT DATAFILE='/home/u63442842/MED_ND/08_final_20251023/final_sample_20251023.csv' 
+PROC IMPORT DATAFILE='/home/xxxxx.csv' 
             OUT=df 
             DBMS=CSV 
             REPLACE;
